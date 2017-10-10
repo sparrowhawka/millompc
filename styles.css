@@ -81,5 +81,14 @@ header-img{
 }
 
 .factbar{
-	background-color: aqua;
+	background-color: rgba(0,255,255,0.85);
+	opacity: 1;
+}
+
+.intro
+{
+    position: absolute;
+    top: 200px;
+    width: 96.66666666666666%;
+    color: #FFF;
 }
