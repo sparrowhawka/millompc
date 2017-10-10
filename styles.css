@@ -1,9 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-header-img{
-	width: 100%;
-}
 
 /* Navigation Bar */
 /* Always True:   */
@@ -62,13 +59,10 @@ header-img{
 
 
 .header-bg{
-	
-	height: 100px;
-
-	
+	height: 100px;	
 }
 
-header-img{
+.header-img{
 	display: block;
   max-width: 100%;
 	width: 100%;
@@ -76,19 +70,48 @@ header-img{
 }
 
 .logo{
-	max-height: 89%;
+	max-height: 98%;
 	padding: 1%;
 }
 
 .factbar{
 	background-color: rgba(0,255,255,0.85);
-	opacity: 1;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	bottom: 0;
+
+
+}
+.factbar-row{
+	padding-left: 5%;
+	padding-right: 5%;
+	
+}
+.factbar-col{
+	max-width: 300px;
+}
+.factbar-small{
+	background-color: rgba(0,255,255,0.85);
+
+}
+.intro-text{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	bottom: 150%;
+	color: white;
+	background-color: rgba(0,255,255,0.15);
 }
 
-.intro
-{
-    position: absolute;
-    top: 200px;
-    width: 96.66666666666666%;
-    color: #FFF;
+.carousel {
+	overflow:hidden;
+	min-height: 400px;
+	max-height: 400px;
 }
+.inner-img{
+	min-height: 400px;
+	overflow: hidden;
+}
+
+
