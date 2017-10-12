@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* GLOBALLY APPLIED STYLES */
+/*Services Blocks*/
+.services{
+	text-align: center;
+	align-content: center;
+	background-color: #46EEEE;
+	border-radius: 12px 0px 4px 4px;
+	padding-bottom: 12px;
+}
+.services hr{
+	display: block;
+	border: none;
+	color: white;
+	height: 2px;
+	background: red;
+	background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#FF0004), to(#ffffff));
+	margin-top: -14px;
+	margin-bottom: 10px;
+}
+.services .caption {
+	padding-top: 10px;
+}
+
+.section-intro{
+	text-align: center;
+}
+
+/*Home Page Specific*/
+/* Factbar*/
+.factbar{
+	background-color: rgba(0,255,255,0.85);
+	position: absolute;
+	left: 0;
+	width: 100%;
+	bottom: 0;
+
+}
+.factbar-row{
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.factbar-col h5{
+	max-width: 300px;
+	
+}
+
+/* Factbar, Small Screen Variant*/
+.factbar-small{
+	background-color: rgba(0,255,255,0.85);
+
+}
+/*Intro Block*/
+.intro-text{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	bottom: 150%;
+	color: white;
+	background-color: rgba(0,255,255,0.35);
+}
+.intro-text h1 {
+	margin-top: 2px;
+}
+.intro-text p {
+	margin-bottom: 2px;
+}
+.carousel {
+	overflow:hidden;
+	
+	max-height: 400px;
+}
+.inner-img{
+	min-height: 400px;
+	overflow: hidden;
+}
+
+
+
+/*Services Page Specific*/

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Millom Computer Services</title> 
+    <!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet" type="text/css">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+  <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+</head>
+  
+  <body onLoad="MM_preloadImages('images/srvc/bsod_2.jpg', 'images/srvc/PC_C_1.jpg')">
+  
+  
+  	<header> 
+	  <div class="container-fluid header-bg ">
+		  <a href="index.html"><img src="images/logo/lg_title_i.png" class="img-responsive logo center-block" alt="Placeholder image"></a>
+	  </div>
+  </header>
+	  
+  <nav class="navbar navbar-inverse">
+	    <div class="container-fluid">
+	      <!-- Brand and toggle get grouped for better mobile display -->
+	      <div class="navbar-header">
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#inverseNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+          </div>
+	      <!-- Collect the nav links, forms, and other content for toggling -->
+	      <div class="collapse navbar-collapse" id="inverseNavbar1">
+	        <ul class="nav navbar-nav">
+	          <ul class="nav navbar-nav">
+			  <li ><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+			  <li class="active"><a href="services.html">Services</a></li>
+			  <li><a href="faqs">FAQ's</a></li>
+			  <li><a href="contact">Contact</a></li>
+			</ul>
+            </ul>
+	        
+          </div>
+	      <!-- /.navbar-collapse -->
+        </div>
+	    <!-- /.container-fluid -->
+  </nav>
+
+	<main>
+       
+		  
+            <div class="container">
+            <hr>
+			<div class="row section-intro" id="services">
+			  <h2 align="center">Services</h2>
+				<p>Service Intro Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam aut non iure accusamus omnis ullam est nemo, facere laborum. Corporis nam numquam distinctio quia voluptatem ut enim est quisquam in provident aperiam beatae praesentium aspernatur voluptates eveniet, quis eligendi quas atque architecto assumenda. Corporis, eligendi.</p>
+			  <div class="col-md-4 col-sm-6 col-xs-12">
+			  	<div class="services" id="diagnostic">
+				  <h2>Diagnostics &amp; Repair</h2>
+	    		  <hr>
+			    	<div  onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ImageBSOD','','images/srvc/bsod_2.jpg',1)"><img src="images/srvc/bsod_1.jpg"  class=" img-responsive center-block" id="ImageBSOD"></div>
+			    	<p class="caption">Ability to fix both known computer faults or undertake comprehensive diagnostics to resolve problems with an unknown cause.</p>
+			    	<h3>Hardware</h3>
+					<p>Hardware repairs can include identifying and replacing faulty components to restore full functionality.</p>
+					<h3>Software</h3>
+					<p>Some computer issues can be caused by software, drivers, or Windows updates - these errors or incompatabilites could prevent the computer working as intended.</p>
+				
+                </div>
+                <div class="services" id="custom">
+                  <h2>Custom Builds</h2>
+                  <hr>
+			    	<div  onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ImageCustom','','images/srvc/bsod_2.jpg',1)"><img src="images/srvc/bsod_1.jpg"  class=" img-responsive center-block" id="ImageCustom"></div>
+			    	<p class="caption">Often a custom-made computer will be a lower cost for better specifcations than buying an of-the-shelf branded computer.</p>
+			    	<h3>Desktop Computers</h3>
+					<p>We can build you a desktop computer that meets the specifications you require, or suggest a selection of components that would easily meet your requirements for the intended use of the computer.</p>
+					
+                </div>
+      		  </div>
+       		  <div class="col-md-4 col-sm-6 col-xs-12">
+       		  	<div class="services" id="service">
+					<h2>Servicing &amp; Cleaning</h2>
+					<hr>
+					<div  onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ImageCLN','','images/srvc/PC_C_2.jpg',1)"><img src="images/srvc/PC_C_1.jpg"  class=" img-responsive center-block" id="ImageCLN"></div>
+					<p class="caption">Like all machines computers can benefit from servicing to prolong their lifespan, improve their performance, or return to 'like new' performance.</p>
+					<h3>Hardware</h3>
+					<p>As computers get older they may have a buildup of dust and debris inside. This stops obstructs airflow, and the computer may run hotter and the fans louder as a result.</p>
+					<h3>Software</h3>
+					<p>
+					Computers can become bogged down with malware and viruses, or just slowed by unused or unessersary software.</p>
+				  
+			  	</div>
+  		    <div class="services" id="tuition">
+  		      <h2>Tuition</h2>
+  		      <hr>
+			    	<div  onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ImageTutor','','images/srvc/bsod_2.jpg',1)"><img src="images/srvc/bsod_1.jpg"  class=" img-responsive center-block" id="ImageTutor"></div>
+			    	<p class="caption">Cusomised tutoring tailored to your specific computer or requirements.</p>
+			    	<h3>Windows</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente voluptatibus, quos, tenetur ipsam, optio dolor architecto eaque consectetur debitis quidem voluptatum dolore odit libero, magnam.</p>
+					<h3>Mac</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, consequatur, ea. Quam repellendus officia et eligendi. Sunt delectus odit doloremque inventore vero, possimus ad nostrum.</p>
+					
+                </div>
+   		    </div>
+       		  <div class="col-md-4 col-sm-6 col-xs-12">
+       		  	<div class="services" id="upgrade">
+       		  	  <h2>Upgrades</h2>
+       		  	  <hr>
+					<div  onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','images/r2.png',1)"><img src="images/r1.png"  class=" img-responsive center-block" id="Image3"></div>
+					<p class="caption">Rather than buy a new computer, you can often upgrade your current computer with faster components, and it will feel like a new machine!</p>
+				  <h3>Hardware</h3>
+					<p>The best speed upgrades you can add to your computer is to change the the Hard Disk Drive (HDD) with a much faster Solid State Drive (SSD). Other upgrades can include more memory (RAM), or for gaming, a better graphics card (GPU).</p>
+					<h3>Software</h3>
+					<p>If you have an older operating system such as Windows 7, you may be able to upgrade your computer to run a later version, such as Windows 10. Some computers may require new components to support the newer operating systems.</p>
+					
+			    </div>
+  		    	<div class="services" id="recycle">
+  		    	  <h2>Recycling</h2>
+  		    	  <hr>
+			    	<div  onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ImageRecycle','','images/srvc/bsod_2.jpg',1)"><img src="images/srvc/bsod_1.jpg"  class=" img-responsive center-block" id="ImageRecycle"></div>
+			    	<p class="caption">You can supply us with your old desktop or laptop computer for recycling purposes. </p>
+					<p>We will always recycle old computers and some IT equipment for free. Some machines we may also be able to purchase for spare parts or to refurbish for re-sale. The value of your old computer to us depends on a number of factors such as: make, model, specification, and condition. Please <a href="contact.html">contact us</a> to learn more.</p>
+					
+					
+                </div>
+   		    </div>
+       		  
+   		  </div>
+        </div>
+      </main>
+ 
+  <footer >
+    <p align="center">Copyright &copy; Millom Computers 2017</p>
+  </footer>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.js"></script>
+</body>
+</html>
