@@ -63,13 +63,14 @@ function MM_swapImage() { //v3.0
 	      <!-- Collect the nav links, forms, and other content for toggling -->
 	      <div class="collapse navbar-collapse" id="inverseNavbar1">
 	        <ul class="nav navbar-nav">
-	          <ul class="nav navbar-nav">
+	         <!-- Not sure why repeted: <ul class="nav navbar-nav"> -->
 			  <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
 			  <li><a href="services.html">Services</a></li>
 			  <li><a href="faqs">FAQ's</a></li>
 			  <li><a href="contact">Contact</a></li>
-			</ul>
-            </ul>
+			  
+			<!-- </ul> -->
+		    </ul>
 	        
           </div>
 	      <!-- /.navbar-collapse -->
@@ -180,7 +181,7 @@ function MM_swapImage() { //v3.0
 			
 		  	<div class="row section-intro">
 			  <h2> Services Overview</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quaerat a mollitia quasi minima, facere, dicta totam sunt, at dolorem cupiditate pariatur vel optio possimus perspiciatis fuga eos similique asperiores repellat nihil facilis. Cupiditate nulla cumque deleniti culpa totam beatae.</p>
+				<p>Below you can find a summary of our most frequently provided services. For more information on these services or others that may be available, please browse all services.</p>
 		    	<a   align="center" href="services.html">
 			    	<div class="CTA-Button">
              			<span >Browse All Services &rarr;</span>
@@ -243,10 +244,8 @@ function MM_swapImage() { //v3.0
   		    	  <h2>Recycling</h2>
   		    	  <hr>
 			    	<div  onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ImageRecycle','','images/srvc/bsod_2.jpg',1)"><img src="images/srvc/bsod_1.jpg"  class=" img-responsive center-block" id="ImageRecycle"></div>
-			    	<p class="caption">You can supply us with your old desktop or laptop computer for recycling purposes. </p>
-					<p>We will always recycle old computers and some IT equipment for free. Some machines we may also be able to purchase for spare parts or to refurbish for re-sale. The value of your old computer to us depends on a number of factors such as: make, model, specification, and condition. Please <a href="contact.html">contact us</a> to learn more.</p>
-					
-					<a href="services.html#recycle">
+			    	<p class="caption">We will always recycle old computers and some IT equipment for free. Some machines we may also be able to purchase for spare parts or to refurbish for re-sale.</p>
+			    	<a href="services.html#recycle">
 			    	<div class="CTA-Button" align="center"><span >More Information &rarr;</span></div>
                		</a>
                 </div>
@@ -257,8 +256,31 @@ function MM_swapImage() { //v3.0
       </main>
  
   <footer >
-    <p align="center">Copyright &copy; Millom Computers 2017</p>
+   <div class="row contact-bar" id="contact">
+	   
+	   <h2>Contact us today:</h2>
+	   <hr>
+	   <div class="contact-bar-inner">
+	   <div class="col-md-4 col-sm-4 col-xs-6 factbar-col center-block">
+	     <h3>Text or Telephone:</h3>
+	     <h4>07XXXXXXXXX // 01229XXXXXX</h4>
+	   </div>
+					  <div class="col-md-4 col-sm-4 col-xs-6 factbar-col center-block">
+					    <h3>Email:</h3>
+					    <h4><a href="mailto:@millomcomputers.co.uk">info@millomcomputers.co.uk</a></h4>
+					    
+					  </div>
+					  <div class="col-md-4 col-sm-4 col-xs-6 factbar-col center-block">
+					    <h3>Facebook:</h3>
+					    <h4><a href="facebook.com" target="_blank">Our Facebook Page &rarr;</a></h4>
+					    
+					  </div>
+	   </div>
+	   
+	</div>
+    <p class="copyright">Copyright &copy; Millom Computers 2017</p>
   </footer>
+  
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="js/jquery-1.11.3.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->

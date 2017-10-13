@@ -24,6 +24,7 @@
 
 .section-intro{
 	text-align: center;
+	
 }
 
 /*Home Page Specific*/
@@ -79,3 +80,9 @@
 
 
 /*Services Page Specific*/
+#recycle:visited {
+	border: thick;
+	border-bottom-color: black;
+	min-height: 400px;
+	padding-top: 60px;
+}

@@ -58,12 +58,12 @@ function MM_swapImage() { //v3.0
 	      <!-- Collect the nav links, forms, and other content for toggling -->
 	      <div class="collapse navbar-collapse" id="inverseNavbar1">
 	        <ul class="nav navbar-nav">
-	          <ul class="nav navbar-nav">
+	       <!--   <ul class="nav navbar-nav"> -->
 			  <li ><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
 			  <li class="active"><a href="services.html">Services</a></li>
 			  <li><a href="faqs">FAQ's</a></li>
 			  <li><a href="contact">Contact</a></li>
-			</ul>
+			<!--</ul> -->
             </ul>
 	        
           </div>
@@ -76,10 +76,16 @@ function MM_swapImage() { //v3.0
        
 		  
             <div class="container">
-            <hr>
-			<div class="row section-intro" id="services">
-			  <h2 align="center">Services</h2>
-				<p>Service Intro Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam aut non iure accusamus omnis ullam est nemo, facere laborum. Corporis nam numquam distinctio quia voluptatem ut enim est quisquam in provident aperiam beatae praesentium aspernatur voluptates eveniet, quis eligendi quas atque architecto assumenda. Corporis, eligendi.</p>
+  			<div class="row section-intro">
+  			  <h2> Services</h2>
+				<p>Below you can find more details on the services that we currently offer. Need something that's not listed? Check the <a href="faqs.html#serviceFAQs">FAQ's</a> or get in touch.</p>
+		    	<a   align="center" href="contact.html">
+			    	<div class="CTA-Button">
+             			<span >Get in Touch &rarr;</span>
+             		</div>
+              </a>
+			</div>
+			
 			  <div class="col-md-4 col-sm-6 col-xs-12">
 			  	<div class="services" id="diagnostic">
 				  <h2>Diagnostics &amp; Repair</h2>
@@ -90,7 +96,8 @@ function MM_swapImage() { //v3.0
 					<p>Hardware repairs can include identifying and replacing faulty components to restore full functionality.</p>
 					<h3>Software</h3>
 					<p>Some computer issues can be caused by software, drivers, or Windows updates - these errors or incompatabilites could prevent the computer working as intended.</p>
-				
+					<h3>Data Recovery</h3>
+					<p>If you have accidentally deleted an important file or your computer is beyond repair it may still be possible to recover your files.</p>
                 </div>
                 <div class="services" id="custom">
                   <h2>Custom Builds</h2>
@@ -150,12 +157,34 @@ function MM_swapImage() { //v3.0
                 </div>
    		    </div>
        		  
-   		  </div>
-        </div>
+	  </div>
+     
       </main>
  
-  <footer >
-    <p align="center">Copyright &copy; Millom Computers 2017</p>
+   <footer >
+   <div class="row contact-bar" id="contact">
+	   
+	   <h2>Contact us today:</h2>
+	   <hr>
+	   <div class="contact-bar-inner">
+	   <div class="col-md-4 col-sm-4 col-xs-6 factbar-col center-block">
+	     <h3>Text or Telephone:</h3>
+	     <h4>07XXXXXXXXX // 01229XXXXXX</h4>
+	   </div>
+					  <div class="col-md-4 col-sm-4 col-xs-6 factbar-col center-block">
+					    <h3>Email:</h3>
+					    <h4><a href="mailto:@millomcomputers.co.uk">info@millomcomputers.co.uk</a></h4>
+					    
+					  </div>
+					  <div class="col-md-4 col-sm-4 col-xs-6 factbar-col center-block">
+					    <h3>Facebook:</h3>
+					    <h4><a href="facebook.com" target="_blank">Our Facebook Page &rarr;</a></h4>
+					    
+					  </div>
+	   </div>
+	   
+	</div>
+    <p class="copyright">Copyright &copy; Millom Computers 2017</p>
   </footer>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="js/jquery-1.11.3.min.js"></script>

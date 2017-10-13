@@ -5,6 +5,12 @@
 
 /* NAVIGATION BAR */
 /* Always True:   */
+#inverseNavbar1 .nav.navbar-nav .active {
+	background-color: pink ! important;
+
+	border-bottom: 2px solid rgba(0,255,255,1.00) ;
+}
+
 .navbar.navbar-inverse {
 	background-color: #000000;
 	background-color: rgba(0,0,0,1.00);
@@ -14,7 +20,11 @@
 }
 .navbar .navbar-nav {
 	background-color: rgb(0,0,0);
-	background-color: rgba(255,0,4,0.02);
+	
+}
+
+.navbar .navbar-nav .active {
+	background-color: aqua;
 }
 /* True for Large Screens Only: */
 @media (min-width: 768px) {
@@ -31,14 +41,18 @@
 	margin-left: 0px;
 	padding-top: 0px;
 	border-width: 0px;
+	
 }
+	
 .navbar .navbar-collapse {
 	text-align: center;
 }
 }
 
-
 /*SITE HEADER*/
+header{
+	background-color: white;
+}
 .header-bg{
 	height: 100px;	
 }
@@ -54,9 +68,54 @@
 	max-height: 98%;
 	padding: 1%;
 }
-
+/*Whole Site*/
+body{
+	background-color: black;
+}
+main{
+	background-color: white;
+	padding-bottom: 16px;
+}
 /*SITE FOOTER*/
+footer{
+	background-color: black;
+	padding-top: 13px;
+}
+.copyright{
+	color: aqua;
+	padding-top: 25px;
+	text-align: center;
+}
+.contact-bar{
+	margin-left: 5%;
+	margin-right: 5%;
+	
+	background-color: rgba(0,202,255,0.09);
+	color: rgba(255,255,255,1.00);
+}
+.contact-bar h2 {
+	padding-left: 0px;
+	margin-left: 14px;
+	margin-bottom: -1px;
+}
+.contact-bar h3{
+	
+	margin-bottom: -7px;
+}
 
+.contact-bar h4{
+}
+.contact-bar hr{
+	margin-top: -2px;
+	margin-left: 11px;
+	margin-right: 11px;
+	margin-bottom: 1px;
+	color: aqua;
+	border-color: rgba(0,255,255,0.75);;
+}
+.contact-bar-inner{
+	max-width: 1100px;
+}
 /*ELEMENTS*/
 /*CTA Button*/
 .CTA-Button{
