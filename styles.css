@@ -80,6 +80,7 @@ main{
 footer{
 	background-color: black;
 	padding-top: 13px;
+	padding-bottom: 200px;
 }
 .copyright{
 	color: aqua;
