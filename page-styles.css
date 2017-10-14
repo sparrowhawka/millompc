@@ -26,7 +26,33 @@
 	text-align: center;
 	
 }
+/* Servicing Pricing Blocks */
+.pricing{
+	padding-right: 34px;
+	padding-left: 10px;
+	line-height: 0px;
+	margin-top: 10px;
+	color: rgba(0,18,184,1.00);
+}
 
+.pricing h1{
+	line-height: 0px;	
+}
+
+.pricing h2{
+	padding-top: 0px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	text-align: left;
+	font-size: 27px;
+}
+.pricing h3{
+	font-style: oblique;
+	font-size: medium;
+}
+.pricing-notes{
+	font-style: oblique;	
+}
 /*Home Page Specific*/
 /* Factbar*/
 .factbar{
