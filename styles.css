@@ -87,6 +87,16 @@ footer{
 	padding-top: 25px;
 	text-align: center;
 }
+.image-cred{
+	color: aqua;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 9pt;
+	font-style: italic;	
+
+	
+}
 .contact-bar{
 	margin-left: 5%;
 	margin-right: 5%;

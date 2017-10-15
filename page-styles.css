@@ -122,10 +122,22 @@
 
 
 .contact-block{
+	background-image: url("images/millom_bw.png");
+	overflow: hidden;
 	
 }
+
 .contact-block .statement{
 	text-align: center;
-	background-color: rgba(0,255,255,0.35);
+	background-color: rgba(0,255,255,0.8);
+	color: black;
+}
+.contact-block .statement a{
+	text-align: center;
 	
+	color: black;
+}
+.contact-block .statement p{
+	padding-bottom: 1px;
+	margin-bottom: -1px;
 }
