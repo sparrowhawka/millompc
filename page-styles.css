@@ -28,11 +28,15 @@
 }
 /* Servicing Pricing Blocks */
 .pricing{
-	padding-right: 34px;
+	padding-right: 36px;
 	padding-left: 10px;
 	line-height: 0px;
 	margin-top: 10px;
 	color: rgba(0,18,184,1.00);
+	background-color: rgba(0,166,255,0.21);
+	margin-left: 1px;
+	margin-right: 1px;
+
 }
 
 .pricing h1{
@@ -111,4 +115,17 @@
 	border-bottom-color: black;
 	min-height: 400px;
 	padding-top: 60px;
+}
+
+
+/* Contact Page*/
+
+
+.contact-block{
+	
+}
+.contact-block .statement{
+	text-align: center;
+	background-color: rgba(0,255,255,0.35);
+	
 }
