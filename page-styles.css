@@ -125,3 +125,6 @@
 	padding-bottom: 1px;
 	margin-bottom: -1px;
 }
+.important-info {
+	background-color: rgba(0,157,224,0.42);
+}
