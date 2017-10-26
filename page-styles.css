@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* GLOBALLY APPLIED STYLES */
+/*Services Blocks*/
+.services {
+	text-align: center;
+	align-content: center;
+	background-color: #46EEEE;
+	border-radius: 12px 0px 4px 4px;
+	padding-bottom: 12px;
+}
+.services hr {
+	display: block;
+	border: none;
+	color: white;
+	height: 2px;
+	background: red;
+	background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#FF0004), to(#ffffff));
+	margin-top: -14px;
+	margin-bottom: 10px;
+}
+.services .caption {
+	padding-top: 10px;
+}
+.section-intro {
+	text-align: center;
+}
+/* Servicing Pricing Blocks */
+.pricing {
+	padding-right: 36px;
+	padding-left: 10px;
+	line-height: 0px;
+	margin-top: 10px;
+	color: rgba(0,18,184,1.00);
+	background-color: rgba(0,166,255,0.21);
+	margin-left: 1px;
+	margin-right: 1px;
+}
+.pricing h1 {
+	line-height: 0px;
+}
+.pricing h2 {
+	padding-top: 0px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	text-align: left;
+	font-size: 27px;
+}
+.pricing h3 {
+	font-style: oblique;
+	font-size: medium;
+}
+.pricing-notes {
+	font-style: oblique;
+}
+/*Home Page Specific*/
+/* Factbar*/
+.factbar {
+	background-color: rgba(0,255,255,0.85);
+	position: absolute;
+	left: 0;
+	width: 100%;
+	bottom: 0;
+}
+.factbar-row {
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.factbar-col h5 {
+	max-width: 300px;
+}
+/* Factbar, Small Screen Variant*/
+.factbar-small {
+	background-color: rgba(0,255,255,0.85);
+}
+/*Intro Block*/
+.intro-text {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	bottom: 150%;
+	color: white;
+	background-color: rgba(0,255,255,0.45);
+}
+.intro-text h1 {
+	margin-top: 2px;
+}
+.intro-text p {
+	margin-bottom: 2px;
+}
+.carousel {
+	overflow: hidden;
+	max-height: 400px;
+}
+.inner-img {
+	min-height: 400px;
+	overflow: hidden;
+}
+/*Services Page Specific*/
+#recycle:visited {
+	border: thick;
+	border-bottom-color: black;
+	min-height: 400px;
+	padding-top: 60px;
+}
+/* Contact Page*/
+
+
+.contact-block {
+	background-image: url("images/millom_bw.png");
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
+	overflow: hidden;
+}
+.contact-block .statement {
+	text-align: center;
+	background-color: rgba(0,255,255,0.8);
+	color: black;
+}
+.contact-block .statement a {
+	text-align: center;
+	color: black;
+}
+.contact-block .statement p {
+	padding-bottom: 1px;
+	margin-bottom: -1px;
+}
+.important-info {
+	background-color: rgba(0,157,224,0.42);
+}
